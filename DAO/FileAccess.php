@@ -1,5 +1,5 @@
 <?php session_start();
-//////////////////////////////////////// accesse file
+//////////////////////////////////////// accesse to the file
 function readNotes() {
 	$xml = simplexml_load_file ( "../Ressources/note.xml" ) or die ( "Error: Cannot create object" );
 	
